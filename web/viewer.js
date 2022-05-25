@@ -72,7 +72,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   defaultUrl: {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/web/compressed.tracemonkey-pldi-09.pdf",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/web/compressed.tracemonkey-pldi-09.pdf",
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
@@ -116,7 +116,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   },
   imageResourcesPath: {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/web/images/",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/web/images/",
     kind: OptionKind.VIEWER
   },
   maxCanvasPixels: {
@@ -169,7 +169,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   cMapUrl: {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/web/cmaps/",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/web/cmaps/",
     kind: OptionKind.API
   },
   disableAutoFetch: {
@@ -213,7 +213,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   standardFontDataUrl: {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/web/standard_fonts/",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/web/standard_fonts/",
     kind: OptionKind.API
   },
   verbosity: {
@@ -225,7 +225,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/build/pdf.worker.js",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/build/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -239,7 +239,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "https://cdn.jsdelivr.net/gh/alist-org/pdf.js@main/build/pdf.sandbox.js",
+    value: "https://fastly.jsdelivr.net/gh/alist-org/pdf.js@main/build/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
   defaultOptions.renderer.kind += OptionKind.PREFERENCE;
